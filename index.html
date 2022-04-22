@@ -4,11 +4,27 @@
   <title>The Truth About Alt</title>
   <link rel="stylesheet" href="index.css">
   <link rel="icon" href="alt.ico" />
+  <script>
+    window.onclick = ()=>{
+      document.querySelector("#muzak").play();
+      document.querySelector("#story").style.display = "block";
+      document.querySelector("#euphoria").style.display = "none";
+
+    }
+  </script>
 </head>
 
+
 <body>
+
+  <audio id = "muzak" autoplay>
+    <source src="Mall Music Muzak - Mall Of 1974 - 09 Impulse Purchase (Part 1).mp3" type="audio/mpeg">
+               If you're reading this, audio isn't supported. 
+   </audio>
   <img src="0.jpg" id="fake-background"></div>
   <div id="container">
+    <button id="euphoria" >Click To Experience Euphoria</button>
+
     <div id = "story">
       <p><span style="font-weight: 400;">Working in anomaly containment was a lot easier than what people thought.</span></p>
 <p>&nbsp;</p>
