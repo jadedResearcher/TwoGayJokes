@@ -28,6 +28,31 @@ body {
   display: none;
 }
 
+.blorbo{
+  width: 150px;
+}
+
+#cast {
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  scrollbar-width: none;  /* Firefox */
+}
+#cast::-webkit-scrollbar { 
+  display: none;  /* Safari and Chrome */
+}
+
+#cast{
+  width: 150px;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  height: 100%;
+  z-index: -1;
+
+}
+
 button{
   background: black;
   color: white;
